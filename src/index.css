@@ -72,3 +72,122 @@
   font-family: Arial, Helvetica, sans-serif;
   color: hsla(0, 0%, 100%, 0.912);
 }
+
+.welcome-message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  background-color: hsl(271, 49%, 38%);
+  color: hsl(0, 0%, 96%);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.login-prompt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  background-color: hsl(0, 58%, 46%);
+  color: hsl(0, 0%, 96%);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.list-category {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: hsl(300, 13%, 23%);
+  border: 3px solid;
+  border-radius: px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: plum;
+}
+
+.list-items li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:hsl(0, 0%, 30%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color: hsl(0, 0%, 60%);
+  cursor: pointer;
+}
+
+.counter-box {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.counter-text {
+  font-size: 10em;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.10);
+  color: whitesmoke;
+  background-color: hsl(194, 100%, 56%);
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: hsl(194, 100%, 46%);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-picker-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p {
+  color: hsl(0, 0%, 20%);
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border: 3px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+}
