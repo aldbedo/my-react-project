@@ -5,7 +5,7 @@ function Counter() {
     const [count, setCount] = useState(0);
 
     const handleClick = (e) => {
-        setCount(count + 1);
+        setCount(c => c + 1);
     }
     
     const resetClick = (e) => {
@@ -14,7 +14,7 @@ function Counter() {
 
 
     const decrementClick = (e) => {
-        setCount(count - 1);
+        setCount(c => c - 1);
     }
 
     return (

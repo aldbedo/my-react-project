@@ -10,6 +10,7 @@ import List from './List'
 import Counter from './Counter'
 import Shopping from './Shopping'
 import ColorPicker from './ColorPicker'
+import Cars from './Cars'
 
 function App() {
 
@@ -34,7 +35,7 @@ function App() {
             {/* {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
             {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>} */}
 
-            <ColorPicker />
+            <Cars />
         </>
     );
 
