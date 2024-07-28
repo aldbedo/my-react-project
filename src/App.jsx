@@ -11,6 +11,11 @@ import Counter from './Counter'
 import Shopping from './Shopping'
 import ColorPicker from './ColorPicker'
 import Cars from './Cars'
+import CarouselSlider from './CarouselSlider'
+
+import { slides } from './data/carouselData.json'
+
+
 
 function App() {
 
@@ -34,8 +39,7 @@ function App() {
         <>
             {/* {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
             {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>} */}
-
-            <Cars />
+            <CarouselSlider data={slides}/>
         </>
     );
 
